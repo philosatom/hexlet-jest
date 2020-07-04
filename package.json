@@ -4,10 +4,11 @@
   "description": "I try to use jest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --colors"
   },
   "author": "Alexey Chernyaev",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
