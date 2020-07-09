@@ -9,6 +9,10 @@
   "author": "Alexey Chernyaev",
   "license": "ISC",
   "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
   "devDependencies": {
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
